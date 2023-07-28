@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width:80%;
+    min-width: 400px;
+    margin: 10px auto;
+    padding: 50px 0 150px;
+    border: solid black 1px;
+    background-image: url(https://www.aberje.com.br/wp-content/uploads/fly-images/125436/Ipiranga_Nova-logo-470x300.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+header h1 a {
+    color:royalblue;
+   text-decoration: none;}
+header h1 a :hover {
+    column-width: auto}
+.h div{
+    display: flex;
+    margin: 0 0 0 2%;
+    color:royalblue;
+    justify-content:center;
+    width: 80%;   }
+.h div span {
+    margin:  0 20% 0 50%;
+}
+
