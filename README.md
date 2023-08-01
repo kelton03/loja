@@ -1,3 +1,1 @@
-# projeto
-
-# loja-teste
+# loja
