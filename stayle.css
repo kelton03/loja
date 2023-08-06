@@ -5,8 +5,8 @@
 }
 
 header {
-    width:80%;
-    min-width: 400px;
+    width: 80%;
+    min-width: 620px;
     margin: 10px auto;
     padding: 50px 0 150px;
     border: solid black 1px;
@@ -14,34 +14,40 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-}
-header h1 a {
-    color:royalblue;
-   text-decoration: none;}
 
-.h div{
+}
+
+header h1 a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.h div {
     display: flex;
     margin: 0 0 0 2%;
-    color:royalblue;
-    justify-content:center;
-    width: 80%;   }
+    color: royalblue;
+    justify-content: center;
+    width: 80%;
+}
+
 .h div span {
-    margin:  0 20% 0 50%;
+    margin: 0 20% 0 50%;
 }
+
 ul {
-     
-border: 1px solid rgb(177, 148, 148);
-display: inline-block;
-padding: 10px;
-list-style: none;
-margin: 10px 2px;
+
+    border: 1px solid rgb(177, 148, 148);
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    margin: 10px 2px;
 }
+
 li {
     max-height: 100px;
     max-width: 200px;
     text-align: center;
- }
+}
 
 .container {
     position: relative;
@@ -49,21 +55,25 @@ li {
     overflow: hidden;
     width: 100%;
     margin: 10px;
-    
-  }
-  .container img {
+
+}
+
+.container img {
     max-width: 100%;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-  }
-  .container:hover img {
+}
+
+.container:hover img {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-  }
+}
 
 .caixa {
     border: 1px solid black;
     margin: 0 10% 50px;
+    min-width: 500px;
+    text-align: center;
 }
